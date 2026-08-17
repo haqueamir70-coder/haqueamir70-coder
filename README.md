@@ -1,16 +1,29 @@
-## Hi there 👋
+MD AMIRUL HAQUE
+haqueamir70-coder
 
-<!--
-**haqueamir70-coder/haqueamir70-coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+DevOps Engineer | Azure | Terraform | Kubernetes | Docker
 
-Here are some ideas to get you started:
+------------------------------------------------
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+👋 Hi, I'm Amirul Haque
+
+Azure DevOps Engineer with 5+ years of DevOps
+experience and 11+ years of overall IT experience.
+
+☁️ Azure
+🏗️ Terraform
+🔄 GitHub Actions
+🐳 Docker
+☸️ Kubernetes
+🔐 DevSecOps
+🐧 Linux
+
+------------------------------------------------
+
+🚀 Featured Projects
+
+Azure DevSecOps Platform
+Azure Terraform CI/CD
+Kubernetes Deployment
+Azure Monitoring
+DevSecOps Pipeline
