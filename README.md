@@ -252,13 +252,17 @@ Tools:
 
 <div align="center">
 
+<a href="https://www.linkedin.com/in/md-amirul-haque/">
 
-<a href="https://linkedin.com">
-
-<img src="https://img.shields.io/badge/LinkedIn-0078D4?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-MD%20Amirul%20Haque-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 
 </a>
 
+<a href="mailto:YOUR_EMAIL">
+
+<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
+
+</a>
 
 </div>
 
