@@ -1,263 +1,282 @@
-# 👋 Hi, I'm MD Amirul Haque
+<div align="center">
 
-### ☁️ Azure DevOps Engineer | Terraform | Kubernetes | Docker | CI/CD | DevSecOps
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=220&section=header&text=MD%20Amirul%20Haque&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35"/>
 
-I’m an **Azure DevOps Engineer with 5+ years of hands-on DevOps experience and 11+ years of overall IT experience**, focused on building reliable, secure, and automated cloud infrastructure.
+</div>
 
-I specialize in **Azure, Infrastructure as Code, CI/CD automation, containerization, Kubernetes, monitoring, and DevSecOps practices**.
 
----
+<h3 align="center">
+☁️ Senior Azure DevOps Engineer | Cloud Architect | DevSecOps Specialist
+</h3>
 
-## 🚀 About Me
 
-* ☁️ Working with **Microsoft Azure** and cloud infrastructure
-* 🏗️ Building Infrastructure as Code using **Terraform**
-* 🔄 Designing CI/CD pipelines using **GitHub Actions**
-* 🐳 Containerizing applications using **Docker**
-* ☸️ Working with **Kubernetes**
-* 🔐 Implementing **DevSecOps and cloud security practices**
-* 🐧 Managing and troubleshooting **Linux environments**
-* 📊 Working with **Azure Monitor and Log Analytics**
-* 🔑 Implementing secure authentication using **Azure Entra ID, RBAC and OIDC**
-* 🌱 Continuously improving my skills in **Cloud, DevOps, DevSecOps and SRE**
+<p align="center">
+🚀 8+ Years Experience Building Secure, Scalable & Automated Cloud Solutions
+</p>
 
----
 
-## 🛠️ Tech Stack
+<p align="center">
 
-### ☁️ Cloud
+<a href="https://github.com/haqueamir70-coder">
+<img src="https://komarev.com/ghpvc/?username=haqueamir70-coder&label=Profile%20Views&color=0078D4&style=for-the-badge"/>
+</a>
 
-`Microsoft Azure` `Azure Entra ID` `Azure RBAC` `Azure Monitor` `Log Analytics` `Key Vault` `Storage` `Networking`
+</p>
 
-### 🏗️ Infrastructure as Code
-
-`Terraform` `Terraform Modules` `Remote State` `Terraform Cloud`
-
-### 🔄 CI/CD & Automation
-
-`Git` `GitHub` `GitHub Actions` `CI/CD` `PowerShell` `Bash`
-
-### 🐳 Containers & Orchestration
-
-`Docker` `Kubernetes` `AKS`
-
-### 🔐 DevSecOps
-
-`Checkov` `Trivy` `TFLint` `CodeQL` `Secret Scanning` `IaC Security`
-
-### 🐧 Operating Systems
-
-`Linux` `Windows Server`
-
-### 📊 Monitoring & Observability
-
-`Azure Monitor` `Log Analytics` `Metrics` `Alerts` `Application Monitoring`
 
 ---
 
-## 🚀 Featured Projects
+# 👨‍💻 About Me
 
-### ⭐ Azure DevSecOps Platform
 
-**Azure + Terraform + GitHub Actions + OIDC + DevSecOps**
+I am a **Senior Azure DevOps Engineer with 8+ years of experience** specializing in designing, automating, and managing enterprise cloud environments.
 
-A production-style Azure infrastructure project demonstrating Infrastructure as Code, secure CI/CD automation, Azure authentication and security scanning.
+My expertise includes building highly available infrastructure, implementing CI/CD automation, securing cloud platforms, and delivering scalable solutions using Microsoft Azure.
 
-**Key concepts:**
 
-* Terraform modules
-* Azure networking
-* GitHub Actions
-* Azure OIDC authentication
-* Azure RBAC
-* Checkov
-* TFLint
-* Terraform plan/apply
-* Environment separation
+### Professional Focus:
 
-🔗 **Repository:** Coming soon
+☁️ Azure Cloud Architecture  
+⚙️ DevOps Automation  
+🏗 Infrastructure as Code  
+🐳 Kubernetes & Container Platforms  
+🔐 DevSecOps & Cloud Security  
+📊 Monitoring & Reliability Engineering  
+
 
 ---
 
-### ⭐ Azure Terraform CI/CD
+# ☁️ Cloud & DevOps Expertise
 
-Automated Azure infrastructure deployment using **Terraform and GitHub Actions**.
 
-**Key concepts:**
+<p align="center">
 
-* Infrastructure as Code
-* Terraform validation
-* Terraform plan/apply
-* GitHub Actions
-* Azure authentication
-* CI/CD automation
+<img src="https://skillicons.dev/icons?i=azure,terraform,docker,kubernetes,linux,git,githubactions,jenkins,python,bash,mysql"/>
 
-🔗 **Repository:** `azure-terraform-cicd`
+</p>
+
 
 ---
 
-### ⭐ Azure Monitoring & Observability
+# 🏆 Core Technologies
 
-Azure monitoring solution using **Azure Monitor and Log Analytics** to monitor cloud infrastructure, collect logs and configure alerts.
 
-**Key concepts:**
+<table>
 
-* Azure Monitor
-* Log Analytics
-* Metrics
-* Alerts
-* Action Groups
-* Infrastructure monitoring
+<tr>
 
-🔗 **Repository:** Coming soon
+<td width="50%">
 
----
 
-### ⭐ Kubernetes Application Deployment
+### ☁️ Microsoft Azure
 
-Containerized application deployment using **Docker and Kubernetes**, with CI/CD automation.
+✔ Azure Virtual Network  
+✔ Azure Virtual Machines  
+✔ Azure Kubernetes Service (AKS)  
+✔ Azure App Services  
+✔ Azure SQL Database  
+✔ Azure Storage  
+✔ Azure Monitor  
+✔ Azure Key Vault  
 
-**Key concepts:**
 
-* Docker
-* Kubernetes
-* Deployments
-* Services
-* ConfigMaps
-* Secrets
-* Ingress
-* Health probes
-* Rolling updates
+</td>
 
-🔗 **Repository:** Coming soon
 
----
+<td width="50%">
 
-### ⭐ DevSecOps CI/CD Pipeline
 
-Secure CI/CD pipeline integrating security checks throughout the software delivery lifecycle.
+### ⚙️ DevOps
 
-**Security tools:**
+✔ CI/CD Pipelines  
+✔ GitHub Actions  
+✔ Azure DevOps  
+✔ Jenkins  
+✔ Docker  
+✔ Kubernetes  
+✔ Terraform  
+✔ Infrastructure Automation  
 
-* Checkov
-* Trivy
-* CodeQL
-* TFLint
-* Secret scanning
 
-🔗 **Repository:** Coming soon
+</td>
+
+</tr>
+
+</table>
+
 
 ---
 
-## 🏗️ DevOps Workflow
+# 🏗️ Featured Cloud Architecture
 
-```text
-                    ┌─────────────────┐
-                    │     Developer   │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │     GitHub      │
-                    └────────┬────────┘
-                             │
-                             ▼
-                    ┌─────────────────┐
-                    │ GitHub Actions  │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-        Terraform        Security        Docker
-        Validation        Scanning         Build
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                    ┌─────────────────┐
-                    │      Azure      │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              ▼              ▼              ▼
-           Compute        Network       Monitoring
-              │              │              │
-              └──────────────┼──────────────┘
-                             ▼
-                    ┌─────────────────┐
-                    │   Observability │
-                    └─────────────────┘
-```
+                Users
 
----
+                  |
 
-## 🔐 Security First
+             Azure DNS
 
-I focus on implementing secure DevOps practices rather than simply automating deployments.
+                  |
 
-```text
-GitHub
-   │
-   ▼
-GitHub Actions
-   │
-   │ OIDC
-   ▼
-Azure Entra ID
-   │
-   ▼
-Azure RBAC
-   │
-   ▼
-Terraform
-   │
-   ▼
-Azure Resources
-```
+      Azure Front Door + WAF
 
-### Security Practices
+                  |
 
-* 🔐 Passwordless Azure authentication with OIDC
-* 🔑 Azure RBAC and least-privilege access
-* 🛡️ Infrastructure as Code scanning
-* 🔍 Container vulnerability scanning
-* 🚫 Avoiding long-lived cloud credentials
-* 🔎 Secret detection
-* 📋 Code and dependency security checks
+          Web Presentation Tier
+
+                  |
+
+         Application Tier (API)
+
+                  |
+
+          Azure SQL Database
+
+                  |
+
+      Backup | Monitoring | Security
+
+
+## 🚀 Enterprise 3-Tier Application Architecture on Azure
+
+
+### Architecture Components:
+
+✅ Azure Virtual Network  
+✅ Web / App / Database Subnets  
+✅ Network Security Groups  
+✅ Virtual Machines  
+✅ Load Balancing  
+✅ Private Endpoint  
+✅ Azure Key Vault  
+✅ Azure Monitor  
+✅ Backup & Recovery  
+
 
 ---
 
-## 📚 Currently Learning & Improving
+# ⚙️ DevOps CI/CD Architecture
 
-* Advanced Azure Architecture
-* Azure Landing Zones
-* Kubernetes & AKS
-* Advanced Terraform
-* DevSecOps
-* SRE & Observability
-* Cloud Security
-* GitHub Actions
-* Platform Engineering
 
----
 
-## 📈 GitHub Activity
+Tools:
 
-I use GitHub to document my hands-on learning, infrastructure projects, automation experiments and DevOps implementations.
+🚀 GitHub Actions  
+🚀 Azure DevOps Pipeline  
+🚀 Docker  
+🚀 Kubernetes  
+🚀 Terraform  
 
-> 💡 My goal is to build projects that demonstrate **real-world DevOps engineering practices**, not just theoretical examples.
 
 ---
 
-## 🤝 Let's Connect
+# 📊 GitHub Performance
 
-I'm interested in opportunities related to:
 
-**Azure DevOps | DevSecOps | Cloud Engineering | SRE | Infrastructure Automation**
+<div align="center">
 
-📧 Feel free to connect with me on LinkedIn or reach out through GitHub.
+
+<img src="https://github-readme-stats.vercel.app/api?username=haqueamir70-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
+
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=haqueamir70-coder&theme=tokyonight&hide_border=true"/>
+
+
+</div>
+
 
 ---
 
-### ⚡ "Automate everything that should be automated. Secure everything that should be secured."
+# 🏆 GitHub Achievements
 
-⭐ If you find my projects useful, consider giving them a **star**.
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=haqueamir70-coder&theme=algolia&no-frame=true&margin-w=10"/>
+
+</div>
+
+
+---
+
+# 🐍 Contribution Animation
+
+
+<div align="center">
+
+
+<img src="https://raw.githubusercontent.com/haqueamir70-coder/haqueamir70-coder/output/github-contribution-grid-snake.svg">
+
+
+</div>
+
+
+---
+
+# 📈 Contribution Graph
+
+
+<div align="center">
+
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=haqueamir70-coder&theme=tokyo-night&hide_border=true">
+
+
+</div>
+
+
+---
+
+# 📂 Featured Projects
+
+
+🚀 Azure Enterprise Architecture  
+→ Secure 3-Tier Application Deployment
+
+
+⚙️ DevOps CI/CD Automation  
+→ Automated Build & Release Pipelines
+
+
+🏗 Terraform Cloud Infrastructure  
+→ Infrastructure as Code Implementation
+
+
+☸ Kubernetes Deployment  
+→ Containerized Application Management
+
+
+---
+
+# 🌐 Connect With Me
+
+
+<div align="center">
+
+
+<a href="https://linkedin.com">
+
+<img src="https://img.shields.io/badge/LinkedIn-0078D4?style=for-the-badge&logo=linkedin&logoColor=white"/>
+
+</a>
+
+
+</div>
+
+
+---
+
+<div align="center">
+
+
+### 🚀 Building Cloud Solutions. Automating Everything. Securing Tomorrow.
+
+
+</div>
+
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=120&section=footer"/>
+
+</div>
+
