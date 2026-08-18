@@ -11,16 +11,12 @@
 
 
 <p align="center">
-🚀 8+ Years Experience Building Secure, Scalable & Automated Cloud Solutions
+🚀 8+ Years Experience Building Secure, Scalable & Enterprise Cloud Solutions
 </p>
 
 
 <p align="center">
-
-<a href="https://github.com/haqueamir70-coder">
 <img src="https://komarev.com/ghpvc/?username=haqueamir70-coder&label=Profile%20Views&color=0078D4&style=for-the-badge"/>
-</a>
-
 </p>
 
 
@@ -28,20 +24,18 @@
 
 # 👨‍💻 About Me
 
+I am a **Senior Azure DevOps Engineer with 8+ years of IT experience**, specializing in Microsoft Azure, Cloud Infrastructure, DevOps Automation, and Enterprise Solution Design.
 
-I am a **Senior Azure DevOps Engineer with 8+ years of experience** specializing in designing, automating, and managing enterprise cloud environments.
-
-My expertise includes building highly available infrastructure, implementing CI/CD automation, securing cloud platforms, and delivering scalable solutions using Microsoft Azure.
-
+I focus on building secure, scalable, and highly available cloud platforms by combining automation, Infrastructure as Code, CI/CD practices, and modern cloud-native technologies.
 
 ### Professional Focus:
 
-☁️ Azure Cloud Architecture  
-⚙️ DevOps Automation  
-🏗 Infrastructure as Code  
-🐳 Kubernetes & Container Platforms  
+☁️ Microsoft Azure Architecture  
+⚙️ DevOps Automation & CI/CD Engineering  
+🏗 Infrastructure as Code (Terraform)  
+🐳 Docker & Kubernetes Platforms  
 🔐 DevSecOps & Cloud Security  
-📊 Monitoring & Reliability Engineering  
+📊 Monitoring, Reliability & Performance Optimization  
 
 
 ---
@@ -62,22 +56,22 @@ My expertise includes building highly available infrastructure, implementing CI/
 
 
 <table>
-
 <tr>
 
 <td width="50%">
 
 
-### ☁️ Microsoft Azure
+## ☁️ Microsoft Azure
 
 ✔ Azure Virtual Network  
 ✔ Azure Virtual Machines  
 ✔ Azure Kubernetes Service (AKS)  
 ✔ Azure App Services  
 ✔ Azure SQL Database  
-✔ Azure Storage  
+✔ Azure Storage Account  
 ✔ Azure Monitor  
 ✔ Azure Key Vault  
+✔ Private Endpoint & Private Link  
 
 
 </td>
@@ -86,7 +80,7 @@ My expertise includes building highly available infrastructure, implementing CI/
 <td width="50%">
 
 
-### ⚙️ DevOps
+## ⚙️ DevOps Engineering
 
 ✔ CI/CD Pipelines  
 ✔ GitHub Actions  
@@ -96,12 +90,12 @@ My expertise includes building highly available infrastructure, implementing CI/
 ✔ Kubernetes  
 ✔ Terraform  
 ✔ Infrastructure Automation  
+✔ Release Management  
 
 
 </td>
 
 </tr>
-
 </table>
 
 
@@ -109,178 +103,6 @@ My expertise includes building highly available infrastructure, implementing CI/
 
 # 🏗️ Featured Cloud Architecture
 
-                Users
-
-                  |
-
-             Azure DNS
-
-                  |
-
-      Azure Front Door + WAF
-
-                  |
-
-          Web Presentation Tier
-
-                  |
-
-         Application Tier (API)
-
-                  |
-
-          Azure SQL Database
-
-                  |
-
-      Backup | Monitoring | Security
-
 
 ## 🚀 Enterprise 3-Tier Application Architecture on Azure
-
-
-### Architecture Components:
-
-✅ Azure Virtual Network  
-✅ Web / App / Database Subnets  
-✅ Network Security Groups  
-✅ Virtual Machines  
-✅ Load Balancing  
-✅ Private Endpoint  
-✅ Azure Key Vault  
-✅ Azure Monitor  
-✅ Backup & Recovery  
-
-
----
-
-# ⚙️ DevOps CI/CD Architecture
-
-
-
-Tools:
-
-🚀 GitHub Actions  
-🚀 Azure DevOps Pipeline  
-🚀 Docker  
-🚀 Kubernetes  
-🚀 Terraform  
-
-
----
-
-# 📊 GitHub Performance
-
-
-<div align="center">
-
-
-<img src="https://github-readme-stats.vercel.app/api?username=haqueamir70-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=haqueamir70-coder&theme=tokyonight&hide_border=true"/>
-
-
-</div>
-
-
----
-
-# 🏆 GitHub Achievements
-
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=haqueamir70-coder&theme=algolia&no-frame=true&margin-w=10"/>
-
-</div>
-
-
----
-
-# 🐍 Contribution Animation
-
-
-<div align="center">
-
-
-<img src="https://raw.githubusercontent.com/haqueamir70-coder/haqueamir70-coder/output/github-contribution-grid-snake.svg">
-
-
-</div>
-
-
----
-
-# 📈 Contribution Graph
-
-
-<div align="center">
-
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=haqueamir70-coder&theme=tokyo-night&hide_border=true">
-
-
-</div>
-
-
----
-
-# 📂 Featured Projects
-
-
-🚀 Azure Enterprise Architecture  
-→ Secure 3-Tier Application Deployment
-
-
-⚙️ DevOps CI/CD Automation  
-→ Automated Build & Release Pipelines
-
-
-🏗 Terraform Cloud Infrastructure  
-→ Infrastructure as Code Implementation
-
-
-☸ Kubernetes Deployment  
-→ Containerized Application Management
-
-
----
-
-# 🌐 Connect With Me
-
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/md-amirul-haque/">
-
-<img src="https://img.shields.io/badge/LinkedIn-MD%20Amirul%20Haque-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-
-</a>
-
-<a href="mailto:YOUR_EMAIL">
-
-<img src="https://img.shields.io/badge/Email-Contact-red?style=for-the-badge&logo=gmail&logoColor=white"/>
-
-</a>
-
-</div>
-
-
----
-
-<div align="center">
-
-
-### 🚀 Building Cloud Solutions. Automating Everything. Securing Tomorrow.
-
-
-</div>
-
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=120&section=footer"/>
-
-</div>
 
