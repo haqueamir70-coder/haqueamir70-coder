@@ -1,310 +1,84 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=250&section=header&text=MD%20Amirul%20Haque&fontSize=55&fontColor=ffffff&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=220&section=header&text=MD%20Amirul%20Haque&fontSize=48&fontColor=ffffff&animation=fadeIn" alt="MD Amirul Haque banner" />
+
+### Azure DevOps Engineer | Terraform & Infrastructure as Code | CI/CD | Cloud Security
+
+**Building repeatable cloud infrastructure, safer delivery pipelines, and maintainable automation.**
+
+[LinkedIn](https://www.linkedin.com/in/md-amirul-haque/) · [GitHub Projects](https://github.com/haqueamir70-coder?tab=repositories) · [Contact](https://www.linkedin.com/in/md-amirul-haque/)
 
 </div>
 
-
-<h2 align="center">
-☁️ Senior Azure DevOps Engineer | Cloud Architect | DevSecOps Specialist
-</h2>
-
-
-<p align="center">
-
-🚀 8+ Years Experience Designing Secure, Scalable & Automated Cloud Solutions
-
-</p>
-
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/md-amirul-haque/">
-<img src="https://img.shields.io/badge/LinkedIn-MD%20Amirul%20Haque-blue?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<img src="https://komarev.com/ghpvc/?username=haqueamir70-coder&style=for-the-badge&color=0078D4"/>
-
-</p>
-
-
 ---
 
-# 👨‍💻 About Me
+## About
 
-Hello! I'm **Md Amirul Haque**, a **Senior Azure DevOps Engineer with 8+ years of IT experience** focused on designing, automating, and managing enterprise cloud environments.
+I am an Azure-focused DevOps engineer working with cloud infrastructure, Infrastructure as Code, CI/CD automation, containers, and security-minded delivery practices. I use hands-on projects to document implementation decisions, validate configurations, and continuously improve my engineering workflow.
 
-I specialize in building reliable cloud platforms using modern DevOps practices, Infrastructure as Code, container technologies, and security-first architecture.
+I am interested in **remote and on-site opportunities worldwide**, particularly Azure DevOps, DevOps Engineering, Platform Engineering, Cloud Infrastructure, and DevSecOps roles. I am based in Saudi Arabia and open to discussing role-specific location, time-zone, and work-authorization requirements.
 
-My goal is to create cloud solutions that are:
+## Core technologies
 
-🚀 Scalable  
-🔐 Secure  
-⚡ Automated  
-☁️ Cloud Native  
-📊 Highly Available  
+| Area | Tools and technologies |
+|---|---|
+| Cloud | Microsoft Azure, Virtual Networks, subnets, Network Security Groups, Key Vault, Azure Monitor |
+| Infrastructure as Code | Terraform, AzureRM provider, reusable modules, Terraform workflows |
+| CI/CD | GitHub Actions, Azure DevOps Pipelines, YAML, build and deployment automation |
+| Containers | Docker, Docker Compose, Kubernetes manifests |
+| Security practices | Least privilege, secrets management, infrastructure scanning, configuration validation |
+| Operating systems & scripting | Linux, Bash, PowerShell, Git |
 
+> Skills listed here reflect my current focus and portfolio work. Project READMEs identify what is implemented versus planned; production readiness should be assessed from code, tests, and deployment evidence.
 
----
+## Featured projects
 
-# ☁️ Cloud & DevOps Expertise
+### 1. Azure Enterprise 3-Tier Architecture
+A portfolio project for exploring separation of web, application, and data tiers, network boundaries, and infrastructure organization.
 
+[View repository →](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture)
+
+### 2. Azure DevSecOps Platform
+Terraform-oriented platform project organized around modules and environment-specific infrastructure. Review the repository README and workflows for the current implementation status.
+
+[View repository →](https://github.com/haqueamir70-coder/azure-devsecops-platform)
+
+### 3. Azure Production Landing Zone
+Terraform configuration for an Azure resource group, virtual network, application/private subnets, NSGs, network rules, Key Vault, and a user-assigned managed identity.
+
+[View repository →](https://github.com/haqueamir70-coder/azure-production-landing-zone)
+
+### 4. Dockerized Application DevOps
+A sample web application packaged with Docker, with Docker Compose, a GitHub Actions workflow, and Kubernetes deployment configuration documented in the repository.
+
+[View repository →](https://github.com/haqueamir70-coder/dockerized-application-devops)
+
+### 5. Azure Terraform CI/CD
+A learning and implementation repository for connecting Terraform workflows with GitHub Actions and Azure. See the workflow files for the exact steps currently configured.
+
+[View repository →](https://github.com/haqueamir70-coder/azure-terraform-cicd)
+
+## How I approach delivery
+
+- **Infrastructure as Code:** keep cloud resources version-controlled and reviewable.
+- **Automation:** prefer repeatable pipelines over manual deployment steps.
+- **Security:** avoid committing credentials; use managed identity or federated authentication where supported, least privilege, and secret stores.
+- **Quality gates:** format and validate Terraform, scan configuration, and review plans before applying infrastructure.
+- **Documentation:** explain architecture, prerequisites, deployment steps, validation, cost considerations, and cleanup.
+
+## Current focus
+
+- Strengthening Terraform module design and environment separation.
+- Improving CI/CD quality gates and secure Azure authentication.
+- Documenting architecture and operational trade-offs in portfolio projects.
+- Practising container and Kubernetes deployment workflows.
+
+## Connect
+
+For opportunities or technical collaboration, please connect through [LinkedIn](https://www.linkedin.com/in/md-amirul-haque/).
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=azure,terraform,docker,kubernetes,linux,git,githubactions,jenkins,python,bash,mysql"/>
+*Cloud infrastructure · Automation · Security · Reliability*
 
 </div>
-
-
----
-
-# 🏆 Technical Skills
-
-
-## ☁️ Microsoft Azure
-
-✔ Azure Virtual Network (VNet)  
-✔ Azure Virtual Machines  
-✔ Azure Kubernetes Service (AKS)  
-✔ Azure App Services  
-✔ Azure SQL Database  
-✔ Azure Storage Account  
-✔ Azure Load Balancer  
-✔ Azure Front Door  
-✔ Azure Key Vault  
-✔ Azure Monitor  
-✔ Private Endpoint & Private Link  
-
-
-## ⚙️ DevOps & Automation
-
-✔ CI/CD Pipeline Design  
-✔ GitHub Actions  
-✔ Azure DevOps Pipelines  
-✔ Jenkins Automation  
-✔ Docker Containerization  
-✔ Kubernetes Management  
-✔ Terraform Infrastructure as Code  
-✔ Release Automation  
-
-
-## 🔐 Cloud Security
-
-✔ Network Security Groups  
-✔ Identity & Access Management  
-✔ Secrets Management  
-✔ Secure Cloud Architecture  
-✔ Monitoring & Compliance  
-
-
----
-
-# 🏗️ Enterprise Azure Architecture
-                     USERS
-
-                       |
-
-                  Azure DNS
-
-                       |
-
-            Azure Front Door + WAF
-
-                       |
-
-             ┌────────────────┐
-             │  Web Tier      │
-             │ App Service/VM │
-             └────────────────┘
-
-                       |
-
-             ┌────────────────┐
-             │ Application    │
-             │ API / Logic    │
-             └────────────────┘
-
-                       |
-
-             ┌────────────────┐
-             │ Data Tier      │
-             │ Azure SQL      │
-             └────────────────┘
-
-                       |
-
-          Backup | Monitoring | Security
-
-## 🚀 3-Tier Application Architecture
-
-
-### Azure Components:
-
-✅ Virtual Network  
-✅ Web/App/Data Subnets  
-✅ Network Security Groups  
-✅ Virtual Machines  
-✅ Azure SQL Database  
-✅ Private Endpoint  
-✅ Azure Key Vault  
-✅ Azure Monitor  
-✅ Backup & Disaster Recovery  
-
-
----
-
-# ⚙️ DevOps CI/CD Pipeline Architecture
-
-
-
-Tools:
-
-🚀 GitHub Actions  
-🚀 Azure DevOps  
-🚀 Docker  
-🚀 Kubernetes  
-🚀 Terraform  
-
-
----
-
-# 🚀 Featured Cloud Projects
-
-
-## ☁️ Azure Enterprise Cloud Architecture
-
-Building secure enterprise Azure environments:
-
-- Network Architecture
-- Multi-tier Applications
-- Security Controls
-- Monitoring Solutions
-- High Availability Design
-
-
----
-
-## ⚙️ DevOps Automation Platform
-
-Implementation of:
-
-- CI/CD Pipelines
-- Automated Deployments
-- Infrastructure Automation
-- Container Workflows
-
-
----
-
-## 🏗 Terraform Azure Infrastructure
-
-Infrastructure automation using:
-
-- Terraform Modules
-- Azure Resources
-- Infrastructure as Code
-- Automated Provisioning
-
-
----
-
-## ☸ Kubernetes Platform Engineering
-
-Working with:
-
-- Kubernetes Deployments
-- Container Management
-- Application Scaling
-- Cloud Native Architecture
-
-
----
-
-# 📊 GitHub Analytics
-
-
-<div align="center">
-
-
-<img src="https://github-readme-stats.vercel.app/api?username=haqueamir70-coder&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-
-<br>
-
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=haqueamir70-coder&theme=tokyonight&hide_border=true"/>
-
-
-</div>
-
-
----
-
-# 🏆 GitHub Achievements
-
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=haqueamir70-coder&theme=algolia&no-frame=true"/>
-
-</div>
-
-
----
-
-# 📈 Contribution Activity
-
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=haqueamir70-coder&theme=tokyo-night&hide_border=true"/>
-
-</div>
-
-
----
-
-# 📚 Currently Learning
-
-
-☁️ Advanced Azure Architecture  
-⚙️ Cloud Native DevOps Practices  
-☸ Kubernetes Advanced Operations  
-🔐 Cloud Security Engineering  
-🏗 Enterprise Infrastructure Automation  
-
-
----
-
-# 🤝 Let's Connect
-
-
-<div align="center">
-
-
-<a href="https://www.linkedin.com/in/md-amirul-haque/">
-
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
-
-</a>
-
-
-</div>
-
-
----
-
-<div align="center">
-
-## 🚀 Building Cloud Solutions | Automating Infrastructure | Delivering Reliability
-
-</div>
-
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0078D4,100:00C7FF&height=120&section=footer"/>
-
-</div>
-
