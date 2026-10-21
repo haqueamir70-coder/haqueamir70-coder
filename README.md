@@ -55,7 +55,7 @@ I work with **Microsoft Azure, Terraform, GitHub Actions, Azure DevOps Pipelines
 ### 1. 🔐 Azure DevSecOps Platform
 Modular Terraform project with environment configuration, separate application and management network security groups, and a GitHub Actions workflow for formatting, validation, linting, and IaC scanning. Check the latest workflow run for validation status.
 
-[**Explore Azure DevSecOps Platform →**](https://github.com/haqueamir70-coder/azure-devsecops-platform) · [**GitHub Actions runs →**](https://github.com/haqueamir70-coder/azure-devsecops-platform/actions)
+[**Explore Azure DevSecOps Platform →**](https://github.com/haqueamir70-coder/azure-devsecops-platform) · [**GitHub Actions runs →**](https://github.com/haqueamir70-coder/azure-devsecops-platform/actions) · [**Threat Model**](https://github.com/haqueamir70-coder/azure-devsecops-platform/blob/main/docs/threat-model.md) · [**Operations Runbook**](https://github.com/haqueamir70-coder/azure-devsecops-platform/blob/main/docs/operations-runbook.md)
 
 ### 2. 🏢 Azure Enterprise 3-Tier Architecture
 Terraform portfolio project exploring Azure networking and selected application, data, security, and monitoring resources. Review the README for current limitations and validation requirements.
@@ -65,17 +65,17 @@ Terraform portfolio project exploring Azure networking and selected application,
 ### 3. ☁️ Azure Production Landing Zone
 Terraform project covering resource organization, virtual networking, subnets, NSGs, and selected identity/security components. Assess the actual configuration and validation evidence in the repository before treating it as production-ready.
 
-[**Explore Azure Landing Zone →**](https://github.com/haqueamir70-coder/azure-production-landing-zone)
+[**Explore Azure Landing Zone →**](https://github.com/haqueamir70-coder/azure-production-landing-zone) · [**Architecture Decisions**](https://github.com/haqueamir70-coder/azure-production-landing-zone/blob/main/docs/architecture-decisions.md)
 
 ### 4. 🔄 Azure Terraform CI/CD
 Portfolio project for connecting Terraform workflows with GitHub Actions and Azure.
 
-[**Explore Terraform CI/CD →**](https://github.com/haqueamir70-coder/azure-terraform-cicd)
+[**Explore Terraform CI/CD →**](https://github.com/haqueamir70-coder/azure-terraform-cicd) · [**Security Policy**](https://github.com/haqueamir70-coder/azure-terraform-cicd/blob/main/SECURITY.md)
 
 ### 5. 🐳 Dockerized Application DevOps
 Sample application and deployment configuration for practising container-based delivery workflows.
 
-[**Explore Dockerized Application →**](https://github.com/haqueamir70-coder/dockerized-application-devops)
+[**Explore Dockerized Application →**](https://github.com/haqueamir70-coder/dockerized-application-devops) · [**Container Security Checklist**](https://github.com/haqueamir70-coder/dockerized-application-devops/blob/main/docs/container-security-checklist.md)
 
 ## 🔒 How I Approach DevSecOps
 
