@@ -26,6 +26,19 @@ I work with **Microsoft Azure, Terraform, GitHub Actions, Azure DevOps Pipelines
 
 📍 Based in Saudi Arabia · Open to relevant DevOps, DevSecOps, Azure Cloud, Platform Engineering, and Infrastructure as Code opportunities, including remote roles where location and work authorization align.
 
+## 🧭 Portfolio Delivery Map
+
+```mermaid
+flowchart TD
+  A[GitHub Portfolio] --> B[Azure Landing Zone]
+  A --> C[Terraform CI/CD]
+  A --> D[Azure DevSecOps Platform]
+  A --> E[Container Supply Chain]
+  E --> F[Image Vulnerability Scan]
+  E --> G[SBOM Artifact]
+  D --> H[Terraform Validation and IaC Scan]
+```
+
 ## 🧰 Technology Stack
 
 <div align="center">
@@ -76,6 +89,12 @@ Portfolio project for connecting Terraform workflows with GitHub Actions and Azu
 Sample application and deployment configuration for practising container-based delivery workflows.
 
 [**Explore Dockerized Application →**](https://github.com/haqueamir70-coder/dockerized-application-devops) · [**Container Security Checklist**](https://github.com/haqueamir70-coder/dockerized-application-devops/blob/main/docs/container-security-checklist.md)
+
+### 6. 🛡️ Secure Container Supply Chain
+
+Build, scan, and generate an SBOM for a container image using GitHub Actions. Review workflow runs and security findings before treating the pipeline as validated.
+
+[**Explore Secure Container Supply Chain →**](https://github.com/haqueamir70-coder/dockerized-application-devops/tree/main/projects/secure-container-supply-chain) · [**Container Security Workflow →**](https://github.com/haqueamir70-coder/dockerized-application-devops/blob/main/.github/workflows/container-security.yml)
 
 ## 🔒 How I Approach DevSecOps
 
