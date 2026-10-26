@@ -73,7 +73,13 @@ flowchart TB
 
 ## 🚀 Featured Projects
 
-### 1. 🛡️ Azure DevSecOps Platform
+### 1. 📊 SRE Observability Platform
+A containerized SRE lab with FastAPI, Prometheus, Grafana dashboards, alert rules, SLO notes, and incident runbooks. The repository includes local Docker Compose instructions and a CI workflow; run it locally to validate the current behavior.
+
+- [Repository](https://github.com/haqueamir70-coder/sre-observability-platform)
+- [CI workflow](https://github.com/haqueamir70-coder/sre-observability-platform/actions)
+
+### 2. 🛡️ Azure DevSecOps Platform
 Terraform-based cloud platform work with environment configuration, network security controls, and a GitHub Actions workflow for infrastructure quality and security checks.
 
 - [Repository](https://github.com/haqueamir70-coder/azure-devsecops-platform)
@@ -81,31 +87,31 @@ Terraform-based cloud platform work with environment configuration, network secu
 - [Threat model](https://github.com/haqueamir70-coder/azure-devsecops-platform/blob/main/docs/threat-model.md)
 - [Operations runbook](https://github.com/haqueamir70-coder/azure-devsecops-platform/blob/main/docs/operations-runbook.md)
 
-### 2. 🏢 Azure Enterprise 3-Tier Architecture
+### 3. 🏢 Azure Enterprise 3-Tier Architecture
 An Azure architecture and Terraform portfolio project for exploring network segmentation and application, data, security, and monitoring components. Review the repository README for scope, prerequisites, and current validation status.
 
 - [Repository](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture)
 
-### 3. ☁️ Azure Production Landing Zone
+### 4. ☁️ Azure Production Landing Zone
 Terraform implementation covering resource organization, virtual networking, subnets, and network security controls. Use the repository documentation to review architecture choices and validation steps.
 
 - [Repository](https://github.com/haqueamir70-coder/azure-production-landing-zone)
 
-### 4. 🔄 Azure Terraform CI/CD
+### 5. 🔄 Azure Terraform CI/CD
 A portfolio project focused on automating Terraform workflows with GitHub Actions and Azure.
 
 - [Repository](https://github.com/haqueamir70-coder/azure-terraform-cicd)
 - [Security policy](https://github.com/haqueamir70-coder/azure-terraform-cicd/blob/main/SECURITY.md)
 - [Workflow runs](https://github.com/haqueamir70-coder/azure-terraform-cicd/actions)
 
-### 5. 🐳 Dockerized Application DevOps
+### 6. 🐳 Dockerized Application DevOps
 Container-oriented application and delivery workflow practice.
 
 - [Repository](https://github.com/haqueamir70-coder/dockerized-application-devops)
 - [Container security checklist](https://github.com/haqueamir70-coder/dockerized-application-devops/blob/main/docs/container-security-checklist.md)
 - [Workflow runs](https://github.com/haqueamir70-coder/dockerized-application-devops/actions)
 
-### 6. 🧱 Azure Enterprise DevSecOps Platform
+### 7. 🧱 Azure Enterprise DevSecOps Platform
 A separate platform engineering repository for iterating on secure Azure infrastructure and delivery practices.
 
 - [Repository](https://github.com/haqueamir70-coder/azure-enterprise-devsecops-platform)
