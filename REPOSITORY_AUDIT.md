@@ -99,3 +99,10 @@ Added a separate `docs/ZERO-TO-HERO.md` to all 24 public repositories and linked
 - Explicit scope honesty: implemented, CI-validated, cloud-deployed and planned capabilities are distinct.
 
 The tool inventories distinguish project tools from optional/conditional services where relevant. Conceptual placeholders (including TwisChat and legacy learning workspaces) are clearly labelled; their proposed tools and architectures are not represented as existing implementation. These are structured learning guides, not proof that every optional service has been deployed or every command has been executed.
+
+
+## Expanded project question banks — completed 4 November 2026
+
+Added `docs/ADVANCED-INTERVIEW-BANK.md` to all 24 public repositories. Each bank contains 40 additional Q&A covering business context, architecture, tool selection, CI/CD, identity, security, troubleshooting, observability, recovery, scaling, cost and evidence. Each also includes a source-code deep-dive checklist and hands-on labs. A central index is available at [docs/PROJECT-QUESTION-BANK-INDEX.md](./docs/PROJECT-QUESTION-BANK-INDEX.md).
+
+Combined documentation coverage is now **50 questions and 50 answers per repository: 1,200 questions and 1,200 answers across 24 repositories** (10 introductory plus 40 advanced per repository). The advanced banks are learning guides; they do not imply every optional tool is deployed. Conceptual and legacy repositories are labelled accordingly.
