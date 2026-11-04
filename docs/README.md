@@ -33,3 +33,46 @@ flowchart TB
 
 ## Interview preparation note
 Be ready to explain the design decision, security boundary, failure mode, operational signal and validation evidence for each answer. Clearly separate implemented code, CI-validated configuration, cloud-deployed resources and future roadmap items.
+
+
+## Interview questions — suggested answers
+
+### 1. Answer
+
+A portfolio should show the engineering problem, architecture, implementation, tests, security decisions, operational readiness and evidence. The profile should make the strongest projects easy to inspect.
+
+### 2. Answer
+
+Terraform validate proves configuration is syntactically and semantically valid against initialized providers. CI logs and test results provide repeatable evidence, but not proof that cloud resources exist.
+
+### 3. Answer
+
+CI validation runs checks on code; deployment provisions or changes infrastructure; cloud validation tests the resulting live resources. Report these states separately.
+
+### 4. Answer
+
+Explain management-group/subscription boundaries, identity, policy, hub-spoke connectivity, private services, centralized logging and workload landing zones, then discuss cost and governance trade-offs.
+
+### 5. Answer
+
+OIDC replaces stored cloud credentials with short-lived identity tokens. Restrict the trust subject and permissions, use protected environments for sensitive operations and audit role assignments.
+
+### 6. Answer
+
+Include source/dependency scanning, secret scanning, image scanning, SBOM generation, signing/provenance, policy-as-code and admission verification, with clear exception handling.
+
+### 7. Answer
+
+An SLI is a measured service indicator, an SLO is its target over a window, and an error budget is the allowed unreliability. Use them to guide reliability and release decisions.
+
+### 8. Answer
+
+Use budgets, cost exports, tags, anomaly detection and owner-level allocation; prioritize changes by savings, risk and effort, and measure sustained unit-cost improvement.
+
+### 9. Answer
+
+State the options, constraints, risks, cost and operational consequences, explain why the selected option fits, and document what evidence would change the decision.
+
+### 10. Answer
+
+Keep a status matrix for implemented, CI-validated, cloud-deployed and planned items. Link workflow runs, tests and genuine screenshots; never infer deployment from a green badge.
