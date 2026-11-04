@@ -106,3 +106,10 @@ The tool inventories distinguish project tools from optional/conditional service
 Added `docs/ADVANCED-INTERVIEW-BANK.md` to all 24 public repositories. Each bank contains 40 additional Q&A covering business context, architecture, tool selection, CI/CD, identity, security, troubleshooting, observability, recovery, scaling, cost and evidence. Each also includes a source-code deep-dive checklist and hands-on labs. A central index is available at [docs/PROJECT-QUESTION-BANK-INDEX.md](./docs/PROJECT-QUESTION-BANK-INDEX.md).
 
 Combined documentation coverage is now **50 questions and 50 answers per repository: 1,200 questions and 1,200 answers across 24 repositories** (10 introductory plus 40 advanced per repository). The advanced banks are learning guides; they do not imply every optional tool is deployed. Conceptual and legacy repositories are labelled accordingly.
+
+
+## First actual source-code walkthrough — Azure 3-tier project
+
+Completed a source-level walkthrough of the current `terraform/` directory in [azure-enterprise-3-tier-architecture](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture/tree/main/terraform). The guide covers 15 Terraform files and includes 20 code-specific Q&A. It also records implementation gaps found in source: Front Door WAF policy has no endpoint/origin/route/security-policy association; Load Balancer has no backend pool/probe/rule; Key Vault and Storage have no workload data-plane role assignments; Recovery Services vault has no backup policy/protected item; Log Analytics/Application Insights have no diagnostic settings or application instrumentation; and location/environment variables are not consistently used. These are findings from code inspection, not a claim that cloud deployment was tested.
+
+The walkthrough is at [docs/SOURCE-CODE-WALKTHROUGH.md](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture/blob/main/docs/SOURCE-CODE-WALKTHROUGH.md). This is the first actual file-by-file source review; the other repositories' question banks contain structured source-review checklists, not yet equivalent line-by-line walkthroughs.
