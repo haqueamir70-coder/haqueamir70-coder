@@ -144,3 +144,8 @@ Open to relevant opportunities and technical conversations in **DevOps, DevSecOp
 <div align="center">
   <sub>Build with discipline. Secure by design. Operate with evidence.</sub>
 </div>
+
+
+## Architecture and interview preparation
+
+See the [architecture diagram and interview questions](docs/README.md) for the repository-specific design walkthrough and technical interview guide.
