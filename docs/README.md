@@ -76,3 +76,7 @@ State the options, constraints, risks, cost and operational consequences, explai
 ### 10. Answer
 
 Keep a status matrix for implemented, CI-validated, cloud-deployed and planned items. Link workflow runs, tests and genuine screenshots; never infer deployment from a green badge.
+
+## Complete zero-to-hero guide
+
+See [ZERO-TO-HERO.md](./ZERO-TO-HERO.md) for the business scenario, architecture walkthrough, tool-by-tool explanations, implementation sequence, practical commands, troubleshooting playbook and additional scenario-based interview questions with answers.
