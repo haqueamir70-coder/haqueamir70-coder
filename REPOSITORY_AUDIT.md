@@ -67,3 +67,15 @@
 
 ### Deployment boundary
 No Azure/AWS infrastructure was provisioned as part of this repository audit. Terraform validate and successful GitHub Actions runs are not proof of a deployed cloud environment. Any deployment requires the user's target subscription/account, approval and cost review.
+
+
+## Documentation standard — architecture and interview guide
+
+A repository-specific `docs/README.md` has now been added to all 24 public repositories, including the profile repository and legacy learning repositories. Each guide contains:
+
+- A Mermaid architecture or workflow diagram tailored to that repository's subject.
+- Ten repository-specific technical interview questions.
+- A preparation note requiring candidates to explain design rationale, security boundaries, failure modes, observability and validation evidence.
+- Explicit scope wording so legacy/placeholder repositories and planned architecture are not presented as deployed production systems.
+
+Each repository root README links to its `docs/README.md` guide. The diagrams are source-controlled Mermaid diagrams rendered by GitHub; they are editable text, not screenshots. The legacy learning repository `MD-AMIRUL-HAQUE` is also linked to its guide.
