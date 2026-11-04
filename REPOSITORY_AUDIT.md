@@ -84,3 +84,18 @@ Each repository root README links to its `docs/README.md` guide. The diagrams ar
 ## Interview answer standard — completed 4 November 2026
 
 All 24 public repositories now have a repository-specific `docs/README.md` containing a Mermaid architecture/workflow diagram, 10 technical interview questions, and a separate suggested-answer section with 10 technically grounded answers. Each root README links to the guide. Answers explain trade-offs, implementation boundaries, security controls, failure modes and validation; placeholder repositories explicitly identify conceptual/future-state architecture. Total published coverage: **240 questions and 240 suggested answers**.
+
+
+## Zero-to-Hero project learning guides — completed 4 November 2026
+
+Added a separate `docs/ZERO-TO-HERO.md` to all 24 public repositories and linked it from each repository's `docs/README.md`. The guides expand beyond short interview Q&A and cover:
+
+- Business scenario, operational pain point and target outcome.
+- End-to-end architecture/request or deployment flow.
+- Tool/service inventory with each tool's purpose and why it fits the project.
+- Implementation sequence and practical CLI commands where applicable.
+- Additional scenario-based interview questions with explanatory answers.
+- Troubleshooting approach, security/reliability/cost considerations and a staged learning path.
+- Explicit scope honesty: implemented, CI-validated, cloud-deployed and planned capabilities are distinct.
+
+The tool inventories distinguish project tools from optional/conditional services where relevant. Conceptual placeholders (including TwisChat and legacy learning workspaces) are clearly labelled; their proposed tools and architectures are not represented as existing implementation. These are structured learning guides, not proof that every optional service has been deployed or every command has been executed.
