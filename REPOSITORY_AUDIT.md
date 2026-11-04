@@ -79,3 +79,8 @@ A repository-specific `docs/README.md` has now been added to all 24 public repos
 - Explicit scope wording so legacy/placeholder repositories and planned architecture are not presented as deployed production systems.
 
 Each repository root README links to its `docs/README.md` guide. The diagrams are source-controlled Mermaid diagrams rendered by GitHub; they are editable text, not screenshots. The legacy learning repository `MD-AMIRUL-HAQUE` is also linked to its guide.
+
+
+## Interview answer standard — completed 4 November 2026
+
+All 24 public repositories now have a repository-specific `docs/README.md` containing a Mermaid architecture/workflow diagram, 10 technical interview questions, and a separate suggested-answer section with 10 technically grounded answers. Each root README links to the guide. Answers explain trade-offs, implementation boundaries, security controls, failure modes and validation; placeholder repositories explicitly identify conceptual/future-state architecture. Total published coverage: **240 questions and 240 suggested answers**.
