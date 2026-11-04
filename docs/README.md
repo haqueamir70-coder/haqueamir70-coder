@@ -80,3 +80,9 @@ Keep a status matrix for implemented, CI-validated, cloud-deployed and planned i
 ## Complete zero-to-hero guide
 
 See [ZERO-TO-HERO.md](./ZERO-TO-HERO.md) for the business scenario, architecture walkthrough, tool-by-tool explanations, implementation sequence, practical commands, troubleshooting playbook and additional scenario-based interview questions with answers.
+
+
+## Advanced question bank
+
+- [All 24 project question banks — central index](./PROJECT-QUESTION-BANK-INDEX.md)
+- [This portfolio repository's 40-question advanced bank](./ADVANCED-INTERVIEW-BANK.md)
