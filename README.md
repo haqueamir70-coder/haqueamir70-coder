@@ -130,7 +130,7 @@ A migration planning reference with workload inventory, migration-wave templates
 
 ## Portfolio navigation
 
-- [Full 24-repository audit and remediation ledger](REPOSITORY_AUDIT.md)
+- [Full 25-repository audit and remediation ledger](REPOSITORY_AUDIT.md)
 - [All repositories](https://github.com/haqueamir70-coder?tab=repositories)
 - [Recent activity and commits](https://github.com/haqueamir70-coder?tab=overview)
 - [LinkedIn profile](https://www.linkedin.com/in/md-amirul-haque/)
