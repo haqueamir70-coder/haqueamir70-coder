@@ -1,152 +1,122 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,45:0066CC,100:00D4FF&height=210&section=header&text=MD%20Amirul%20Haque&fontSize=44&fontColor=ffffff&animation=fadeIn" width="100%" alt="MD Amirul Haque — Cloud, DevOps and Platform Engineering" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,45:075985,100:06B6D4&height=190&section=header&text=MD%20Amirul%20Haque&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="MD Amirul Haque — DevOps and Platform Engineering" />
 
 # Senior DevOps / DevSecOps Engineer
-### Microsoft Azure · Terraform · Kubernetes · CI/CD · Cloud Security · SRE
+### Azure · Terraform · Kubernetes · CI/CD · Cloud Security · SRE
 
-**I build secure, automated and observable cloud platforms — with infrastructure, delivery workflows and operational evidence documented as code.**
+**I engineer secure cloud foundations and delivery platforms, with a focus on automation, workload security, observability and operational resilience.**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-amirul-haque/)
-[![GitHub Repositories](https://img.shields.io/badge/GitHub-Portfolio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haqueamir70-coder?tab=repositories)
-[![Location](https://img.shields.io/badge/Location-Saudi%20Arabia-16803D?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/haqueamir70-coder)
+[LinkedIn](https://www.linkedin.com/in/md-amirul-haque/) · [All repositories](https://github.com/haqueamir70-coder?tab=repositories) · [Portfolio execution plan](PORTFOLIO_EXECUTION_PLAN.md)
 
 </div>
 
 ---
 
-## Engineering profile
+## Engineering focus
 
-DevOps / DevSecOps engineer focused on Microsoft Azure, infrastructure automation, secure software delivery and cloud-native operations. My portfolio demonstrates practical engineering patterns through Terraform, GitHub Actions, containers, Kubernetes, policy-as-code, observability and operational documentation.
+My work spans the engineering lifecycle: **design → provision → build → secure → release → observe → recover**.
 
-I care about the full engineering lifecycle: **design → build → validate → secure → deploy → observe → recover**.
-
-- **Cloud:** Microsoft Azure; AWS architecture and governance patterns
-- **Infrastructure:** Terraform, Azure networking, reusable modules, remote-state practices
-- **Delivery:** GitHub Actions, Azure Pipelines, CI quality gates, GitOps
-- **Containers & orchestration:** Docker, Kubernetes, AKS
-- **Security:** DevSecOps, IaC scanning, supply-chain security, identity, least privilege, policy-as-code
-- **Reliability:** Prometheus, Grafana, SLI/SLOs, alerting, incident response and runbooks
-- **Automation:** Bash, PowerShell, Python
+| Domain | Technologies and practices |
+|---|---|
+| Cloud | Microsoft Azure; AWS governance and architecture patterns |
+| Infrastructure as Code | Terraform, Azure networking, reusable modules, state management |
+| Delivery engineering | GitHub Actions, Azure Pipelines, CI quality gates, GitOps |
+| Containers and platforms | Docker, Kubernetes, AKS, platform engineering |
+| DevSecOps | Trivy, Checkov, SBOM, Cosign, OIDC, least privilege, policy-as-code |
+| Reliability | Prometheus, Grafana, SLI/SLO, alerting, incident response |
+| Automation | Python, Bash, PowerShell |
 
 ## Certifications
 
-| Certification | Focus |
-|---|---|
-| **AZ-104** | Microsoft Azure Administrator |
-| **AZ-400** | Designing and Implementing Microsoft DevOps Solutions |
-| **AZ-305** | Designing Microsoft Azure Infrastructure Solutions |
+- **AZ-104** — Microsoft Azure Administrator
+- **AZ-400** — Designing and Implementing Microsoft DevOps Solutions
+- **AZ-305** — Designing Microsoft Azure Infrastructure Solutions
 
-## Featured engineering work
+## Selected engineering work
 
-These are the projects I recommend reviewing first. Each repository documents its scope and distinguishes implemented functionality from target architecture or planned work.
+The repositories below are selected for technical depth and relevance. Their READMEs state what is implemented, what CI validates, and what still requires a live environment. A passing workflow is not presented as proof of production deployment.
 
-### 1. Software supply-chain security — end-to-end trust
+### 1. Software supply-chain security
 [**Cloud-Native Software Supply Chain Security Platform**](https://github.com/haqueamir70-coder/cloud-native-software-supply-chain-security-platform)
 
-A DevSecOps reference implementation covering CI, container scanning, SBOM generation, image signing, provenance and Kubernetes admission verification. Includes architecture, threat model, runbooks and a documented successful signed-image release workflow.
+Source-to-artifact trust workflow with container scanning, SBOM generation, Cosign signing, provenance and Kubernetes admission policy examples. The repository includes a successful signed-image release run; cluster admission enforcement still requires disposable-cluster verification.
 
-**Focus:** GitHub Actions · Trivy · Syft · Cosign · SBOM · provenance · Kyverno · Kubernetes
+**Stack:** GitHub Actions · Trivy · Syft · Cosign · SBOM · provenance · Kyverno
 
-### 2. Enterprise platform engineering — developer golden paths
+### 2. Internal developer platform
 [**Enterprise Internal Developer Platform**](https://github.com/haqueamir70-coder/enterprise-internal-developer-platform)
 
-An internal developer platform reference with golden-path documentation, Backstage catalog/template examples, Kubernetes deployment patterns, GitOps, policy controls and platform operating practices.
+Platform engineering reference covering developer golden paths, Backstage examples, Kubernetes delivery patterns, GitOps, policy controls and platform operations. Treat optional cloud/runtime integrations according to the repository delivery-status document.
 
-**Focus:** Platform Engineering · Backstage · Kubernetes · GitOps · Terraform · Policy-as-Code
+**Stack:** Backstage · Kubernetes · GitOps · Terraform · Policy-as-Code
 
-### 3. AI workloads on Kubernetes
-[**Kubernetes AI Inference Platform**](https://github.com/haqueamir70-coder/kubernetes-ai-inference-platform)
-
-A Kubernetes inference platform lab with a FastAPI inference gateway, vLLM integration profile, autoscaling patterns, observability manifests, rollout examples, Terraform foundations and operational runbooks. GPU deployment requires compatible infrastructure and is not represented as already provisioned.
-
-**Focus:** Kubernetes · vLLM · FastAPI · GPU scheduling · HPA/KEDA · Prometheus · Terraform
-
-### 4. Azure industrial IoT reliability blueprint
-[**Azure Industrial IoT Reliability Platform**](https://github.com/haqueamir70-coder/azure-industrial-iot-reliability-platform)
-
-A synthetic-data reference design for equipment telemetry, event ingestion, processing, equipment health and alerting. Explicitly separated from real customer systems and industrial safety controls.
-
-**Focus:** Azure Event Hubs · Event-driven design · Telemetry contracts · Reliability · Observability
-
-### 5. Azure AKS zero-trust foundation
+### 3. Azure AKS zero-trust foundation
 [**Azure AKS Zero-Trust Platform**](https://github.com/haqueamir70-coder/azure-aks-zero-trust-platform)
 
-A hands-on Azure foundation with Terraform-managed networking, subnet segmentation and NSG associations, plus a documented roadmap for private AKS, identity, workload security and GitOps. The README records the actual deployed foundation separately from planned components.
+Terraform-managed Azure network foundation with segmented subnets and NSG associations. Private AKS, identity and workload-security extensions are documented separately from the implemented foundation.
 
-**Focus:** Azure · AKS · Terraform · Network Security · Entra ID · Workload Identity
+**Stack:** Azure · AKS · Terraform · Network Security · Entra ID
 
-### 6. AWS enterprise governance and security
-[**AWS Enterprise Cloud Governance & Security Platform**](https://github.com/haqueamir70-coder/aws-enterprise-cloud-governance-security-platform)
-
-A Terraform-based AWS network foundation with governance examples, security policies, CI validation, operational runbooks and senior system-design scenarios. Organization-level services are documented as reference patterns, not falsely described as deployed.
-
-**Focus:** AWS · Terraform · IAM · SCP examples · VPC · Checkov · TFLint
-
-### 7. SRE and observability
+### 4. SRE and observability
 [**SRE Observability Platform**](https://github.com/haqueamir70-coder/sre-observability-platform)
 
-A containerized observability lab with an application, Prometheus metrics, Grafana dashboards, alert rules, SLO/error-budget documentation and incident response material.
+Containerized observability lab with Prometheus, Grafana, alert rules, SLO/error-budget material and incident response documentation. Measured reliability outcomes should be taken from actual lab runs, not assumed from example targets.
 
-**Focus:** SRE · Prometheus · Grafana · SLOs · Alerting · Docker · Incident Management
+**Stack:** Prometheus · Grafana · Docker · SLO · Alerting
 
-### 8. Azure FinOps and cost governance
-[**Azure FinOps Cost Governance**](https://github.com/haqueamir70-coder/azure-finops-cost-governance)
+### 5. Industrial IoT reliability
+[**Azure Industrial IoT Reliability Platform**](https://github.com/haqueamir70-coder/azure-industrial-iot-reliability-platform)
 
-A cost-analysis and governance project with Terraform foundations, sample cost data, an analyzer, tests, architecture documentation and interview material.
+Synthetic telemetry reference for equipment monitoring, event ingestion, processing and alerting. It is a portfolio lab and is not connected to customer refinery systems or operational technology.
 
-**Focus:** Azure · FinOps · Terraform · Python · Cost Governance
+**Stack:** Azure Event Hubs · Event-driven architecture · Telemetry contracts · Python
 
-### 9. VMware-to-Azure migration factory
-[**Azure VMware Cloud Migration Factory**](https://github.com/haqueamir70-coder/azure-vmware-cloud-migration-factory)
+### 6. Kubernetes AI inference
+[**Kubernetes AI Inference Platform**](https://github.com/haqueamir70-coder/kubernetes-ai-inference-platform)
 
-A migration planning reference with workload inventory, migration-wave templates, target architecture, Terraform foundation, pilot/cutover/rollback runbooks and decision records. It does not claim a real estate migration.
+Inference platform lab with FastAPI, vLLM integration profile, autoscaling patterns, observability manifests, Terraform foundations and operational runbooks. GPU deployment requires compatible infrastructure and is not claimed as provisioned.
 
-**Focus:** Azure Migrate concepts · Migration Planning · Terraform · Cutover · Rollback · Governance
+**Stack:** Kubernetes · vLLM · FastAPI · GPU scheduling · HPA/KEDA · Prometheus
 
-## More projects
+### Additional projects
 
-| Engineering area | Repository |
-|---|---|
-| Azure enterprise DevSecOps | [azure-devsecops-platform](https://github.com/haqueamir70-coder/azure-devsecops-platform) |
-| Enterprise DevSecOps architecture | [azure-enterprise-devsecops-platform](https://github.com/haqueamir70-coder/azure-enterprise-devsecops-platform) |
-| Secure GitOps delivery | [secure-gitops-platform](https://github.com/haqueamir70-coder/secure-gitops-platform) |
-| Terraform policy gates | [terraform-security-policy-gate](https://github.com/haqueamir70-coder/terraform-security-policy-gate) |
-| Azure Key Vault private secrets | [azure-key-vault-private-secrets](https://github.com/haqueamir70-coder/azure-key-vault-private-secrets) |
-| Azure 3-tier architecture | [azure-enterprise-3-tier-architecture](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture) |
-| Azure production landing zone | [azure-production-landing-zone](https://github.com/haqueamir70-coder/azure-production-landing-zone) |
-| Terraform CI/CD | [azure-terraform-cicd](https://github.com/haqueamir70-coder/azure-terraform-cicd) |
-| Container delivery | [dockerized-application-devops](https://github.com/haqueamir70-coder/dockerized-application-devops) |
-| Cloud-native supply-chain security | [cloud-native-software-supply-chain-security-platform](https://github.com/haqueamir70-coder/cloud-native-software-supply-chain-security-platform) |
-| Kubernetes chaos engineering and resilience | [kubernetes-chaos-engineering-resilience-lab](https://github.com/haqueamir70-coder/kubernetes-chaos-engineering-resilience-lab) |
+- [Azure FinOps Cost Governance](https://github.com/haqueamir70-coder/azure-finops-cost-governance)
+- [Azure VMware Cloud Migration Factory](https://github.com/haqueamir70-coder/azure-vmware-cloud-migration-factory)
+- [Secure GitOps Platform](https://github.com/haqueamir70-coder/secure-gitops-platform)
+- [Terraform Security Policy Gate](https://github.com/haqueamir70-coder/terraform-security-policy-gate)
+- [Azure Key Vault Private Secrets](https://github.com/haqueamir70-coder/azure-key-vault-private-secrets)
+- [Azure Enterprise 3-Tier Architecture](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture)
+- [Azure Production Landing Zone](https://github.com/haqueamir70-coder/azure-production-landing-zone)
+- [Azure Terraform CI/CD](https://github.com/haqueamir70-coder/azure-terraform-cicd)
 
-## How I approach engineering
+## Engineering principles
 
-- **Secure by default:** least privilege, short-lived identity, private networking and explicit trust boundaries.
-- **Infrastructure as Code:** version-controlled, reviewable and repeatable infrastructure changes.
-- **Automated quality gates:** formatting, validation, tests, linting and security scanning before release.
-- **Operational readiness:** metrics, alerts, runbooks, recovery procedures and clear ownership.
-- **Evidence over marketing:** distinguish local tests, CI validation, deployed resources and future-state designs.
-- **Cost-aware delivery:** make billable resources, quotas, environment assumptions and teardown steps visible.
+- **Security by default:** least privilege, federated identity, explicit trust boundaries and private networking.
+- **Repeatable infrastructure:** reviewed Terraform, version constraints and protected state.
+- **Automated verification:** formatting, validation, tests and security scanning before release.
+- **Operational readiness:** health signals, actionable alerts, runbooks and rollback paths.
+- **Evidence over claims:** distinguish local tests, CI validation, cloud deployment and future-state design.
+- **Cost-aware engineering:** disclose billable resources, prerequisites and teardown steps.
 
-## Portfolio navigation
+## Portfolio evidence and transparency
 
-- [Full 25-repository audit and remediation ledger](REPOSITORY_AUDIT.md)
-- [All repositories](https://github.com/haqueamir70-coder?tab=repositories)
-- [Recent activity and commits](https://github.com/haqueamir70-coder?tab=overview)
-- [LinkedIn profile](https://www.linkedin.com/in/md-amirul-haque/)
+- [Repository audit and remediation history](REPOSITORY_AUDIT.md)
+- [Portfolio execution plan and outstanding evidence gates](PORTFOLIO_EXECUTION_PLAN.md)
+- [Repository activity](https://github.com/haqueamir70-coder?tab=overview)
+
+I do not treat a README, architecture diagram or green static-validation workflow as proof of a production deployment. Live demonstrations, test reports and operational measurements will be added as they are actually produced.
 
 ## Connect
 
-Open to relevant opportunities and technical conversations in **DevOps, DevSecOps, Azure Cloud, Platform Engineering, Kubernetes, Infrastructure Automation and SRE**.
+Open to technical conversations and opportunities in **DevOps, DevSecOps, Azure Cloud, Platform Engineering, Kubernetes, Infrastructure Automation and SRE**.
 
 [Connect on LinkedIn](https://www.linkedin.com/in/md-amirul-haque/)
 
 <div align="center">
-  <sub>Build with discipline. Secure by design. Operate with evidence.</sub>
+<sub>Build securely. Automate deliberately. Operate with evidence.</sub>
 </div>
-
 
 ## Architecture and interview preparation
 
-See the [architecture diagram and interview questions](docs/README.md) for the repository-specific design walkthrough and technical interview guide.
+See [this profile repository's architecture and interview guide](docs/README.md) and each selected project's own documentation for implementation details and design decisions.
