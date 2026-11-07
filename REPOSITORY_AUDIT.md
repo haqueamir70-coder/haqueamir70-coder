@@ -125,3 +125,17 @@ The maintained project READMEs now use project-specific presentation and content
 The three legacy/placeholder repositories received archive/placeholder landing pages that state their limitations and direct visitors to maintained work. They were not given fabricated implementation claims. The Kubernetes Chaos Engineering README was also refreshed, but live lab execution remains on hold until the user changes laptops; no live experiment or recovery result is claimed. The profile README remains a separate career landing page and links to the Chaos Engineering project.
 
 The refresh preserves the evidence boundary between implemented code, CI validation, cloud-deployed resources and future-state architecture. Animated headers are decorative; architecture diagrams and setup instructions carry the technical substance.
+
+
+## Portfolio-wide README navigation and CI verification — 7 November 2026
+
+A second pass checked relative Markdown links in the project READMEs against each repository's tracked default-branch tree. The checks found and corrected stale references in:
+- `secure-gitops-platform`: removed a misleading MIT license badge because no `LICENSE` file is present.
+- `aws-enterprise-cloud-governance-security-platform`: corrected interview links to the files that actually exist.
+- `kubernetes-chaos-engineering-resilience-lab`: added a runbook index plus pre-flight/abort, pod-disruption, CPU-stress and network-delay procedures, then linked the README to the real runbook index.
+
+A follow-up check confirmed those corrected references resolve to tracked files. The other README-relative links checked in this pass resolved against the repository trees. GitHub's conventional `../../actions` links are navigation links to each repository's Actions tab, not missing local files.
+
+The latest available GitHub Actions run was queried for every project repository that has a workflow. All **21 workflow-enabled project repositories** returned a latest run with `status=completed` and `conclusion=success` at the time of this check. This is evidence of the latest recorded workflow run, not a guarantee that every cloud deployment, runtime path or optional integration has been exercised. The three legacy/placeholder repositories do not have an active CI workflow and are intentionally not counted.
+
+The Chaos Engineering lab remains documentation/manifest-ready only; the CI workflow validates repository assets, not a live chaos experiment. Live cluster deployment and fault injection remain on hold until the user has the replacement laptop.
