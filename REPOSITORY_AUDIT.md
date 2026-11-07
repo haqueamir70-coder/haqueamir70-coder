@@ -1,8 +1,8 @@
 # GitHub Portfolio — Repository Audit
 
-**Audit date:** 4 November 2026  
+**Audit date:** 7 November 2026  
 **Account:** [haqueamir70-coder](https://github.com/haqueamir70-coder)  
-**Scope:** 24 public repositories. Repository trees, READMEs and available GitHub Actions history were reviewed. Selected Terraform, workflow, security and Python implementation files received deeper review and fixes. This is not a claim that every line of every repository has been manually reviewed or that any cloud environment is production-deployed.
+**Scope:** 25 public repositories (24 previously audited repositories plus the new Kubernetes Chaos Engineering & Resilience Lab). Repository trees, READMEs and available GitHub Actions history were reviewed. Selected Terraform, workflow, security and Python implementation files received deeper review and fixes. This is not a claim that every line of every repository has been manually reviewed or that any cloud environment is production-deployed.
 
 ## Executive findings
 
@@ -41,6 +41,7 @@
 | 22 | [azure-vmware-cloud-migration-factory](https://github.com/haqueamir70-coder/azure-vmware-cloud-migration-factory) | Flagship — Migration architecture | Good wave planning, decision records, pilot/cutover/rollback runbooks and Terraform scaffold. No real estate migration is claimed. | Latest observed Terraform CI passed |
 | 23 | [azure-enterprise-devsecops-platform](https://github.com/haqueamir70-coder/azure-enterprise-devsecops-platform) | Supporting — Azure foundations | Resource-group/network module foundation now includes app and management NSGs with subnet associations. Added Terraform formatting, backend-free validation, TFLint and advisory Checkov scanning; module-level provider/version constraints added after TFLint findings. | New Terraform CI passed |
 | 24 | [kubernetes-ai-inference-platform](https://github.com/haqueamir70-coder/kubernetes-ai-inference-platform) | Flagship — AI platform | FastAPI scaffold, vLLM profile, GPU scheduling, HPA/KEDA examples, GitOps, observability manifests, Terraform and runbooks. GPU/AKS/operator deployment remains an extension, not a live deployment claim. | Latest observed security CI passed; recheck CI after final changes |
+| 25 | [kubernetes-chaos-engineering-resilience-lab](https://github.com/haqueamir70-coder/kubernetes-chaos-engineering-resilience-lab) | Flagship — SRE / resilience | Added provisioned Grafana dashboard (8 panels), Prometheus scrape/alert configuration, Helm installation guide, three one-pod/30-second Chaos Mesh templates, evidence report and GitHub Actions asset validation. Live cluster deployment and chaos execution are deferred until the user changes laptops; no runtime result is claimed. | Workflow committed; first run and live lab execution pending |
 
 ## Recommended profile pin order
 
@@ -113,3 +114,8 @@ Combined documentation coverage is now **50 questions and 50 answers per reposit
 Completed a source-level walkthrough of the current `terraform/` directory in [azure-enterprise-3-tier-architecture](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture/tree/main/terraform). The guide covers 15 Terraform files and includes 20 code-specific Q&A. It also records implementation gaps found in source: Front Door WAF policy has no endpoint/origin/route/security-policy association; Load Balancer has no backend pool/probe/rule; Key Vault and Storage have no workload data-plane role assignments; Recovery Services vault has no backup policy/protected item; Log Analytics/Application Insights have no diagnostic settings or application instrumentation; and location/environment variables are not consistently used. These are findings from code inspection, not a claim that cloud deployment was tested.
 
 The walkthrough is at [docs/SOURCE-CODE-WALKTHROUGH.md](https://github.com/haqueamir70-coder/azure-enterprise-3-tier-architecture/blob/main/docs/SOURCE-CODE-WALKTHROUGH.md). This is the first actual file-by-file source review; the other repositories' question banks contain structured source-review checklists, not yet equivalent line-by-line walkthroughs.
+
+
+## Portfolio README visual refresh — 7 November 2026
+
+The GitHub account currently exposes 25 public repositories. A portfolio-wide README visual audit was performed. Fifteen maintained project READMEs received a project-specific animated banner, typing-line treatment and technology badges where those elements were missing. Other maintained repositories already had banners, SVG architecture visuals or substantial diagrams and were retained rather than duplicated. Three legacy/placeholder repositories remain deliberately plain and explicitly labelled as non-featured; they were not given artificial architecture or technology claims. The profile README now links to the 25th chaos engineering project. All changes preserve the distinction between implementation, CI validation, deployed infrastructure and planned work.
