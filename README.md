@@ -1,13 +1,15 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,45:075985,100:06B6D4&height=190&section=header&text=MD%20Amirul%20Haque&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%" alt="MD Amirul Haque — DevOps and Platform Engineering" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:071A2F,45:0066CC,100:00D4FF&height=210&section=header&text=MD%20Amirul%20Haque&fontSize=44&fontColor=ffffff&animation=fadeIn" width="100%" alt="MD Amirul Haque — Cloud, DevOps and Platform Engineering" />
 
 # Senior DevOps / DevSecOps Engineer
-### Azure · Terraform · Kubernetes · CI/CD · Cloud Security · SRE
+### Microsoft Azure · Terraform · Kubernetes · CI/CD · Cloud Security · SRE
 
-**I engineer secure cloud foundations and delivery platforms, with a focus on automation, workload security, observability and operational resilience.**
+**I build secure, automated and observable cloud platforms — with infrastructure, delivery workflows and operational evidence documented as code.**
 
-[LinkedIn](https://www.linkedin.com/in/md-amirul-haque/) · [All repositories](https://github.com/haqueamir70-coder?tab=repositories) · [Portfolio execution plan](PORTFOLIO_EXECUTION_PLAN.md)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-amirul-haque/)
+[![GitHub](https://img.shields.io/badge/GITHUB-PORTFOLIO-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/haqueamir70-coder?tab=repositories)
+[![Location](https://img.shields.io/badge/LOCATION-SAUDI%20ARABIA-16803D?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/Saudi+Arabia/)
 
 </div>
 
