@@ -118,6 +118,7 @@ A migration planning reference with workload inventory, migration-wave templates
 | Terraform CI/CD | [azure-terraform-cicd](https://github.com/haqueamir70-coder/azure-terraform-cicd) |
 | Container delivery | [dockerized-application-devops](https://github.com/haqueamir70-coder/dockerized-application-devops) |
 | Cloud-native supply-chain security | [cloud-native-software-supply-chain-security-platform](https://github.com/haqueamir70-coder/cloud-native-software-supply-chain-security-platform) |
+| Kubernetes chaos engineering and resilience | [kubernetes-chaos-engineering-resilience-lab](https://github.com/haqueamir70-coder/kubernetes-chaos-engineering-resilience-lab) |
 
 ## How I approach engineering
 
