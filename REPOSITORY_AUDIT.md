@@ -139,3 +139,16 @@ A follow-up check confirmed those corrected references resolve to tracked files.
 The latest available GitHub Actions run was queried for every project repository that has a workflow. All **21 workflow-enabled project repositories** returned a latest run with `status=completed` and `conclusion=success` at the time of this check. This is evidence of the latest recorded workflow run, not a guarantee that every cloud deployment, runtime path or optional integration has been exercised. The three legacy/placeholder repositories do not have an active CI workflow and are intentionally not counted.
 
 The Chaos Engineering lab remains documentation/manifest-ready only; the CI workflow validates repository assets, not a live chaos experiment. Live cluster deployment and fault injection remain on hold until the user has the replacement laptop.
+
+
+## Evidence-first profile refocus — 7 November 2026
+
+The profile README was revised to reduce project-list noise and foreground six selected engineering projects: supply-chain security, internal developer platform, Azure AKS zero trust, SRE observability, industrial IoT reliability and Kubernetes AI inference. The revised profile explicitly distinguishes successful CI evidence from live cluster/cloud deployment and links to a dedicated execution plan.
+
+Added [PORTFOLIO_EXECUTION_PLAN.md](./PORTFOLIO_EXECUTION_PLAN.md), which records:
+- The historical Azure service-principal credential exposure as an **unverified, blocking security gate**. Credential revocation, Entra sign-in review and Azure Activity Log review cannot be confirmed from repository content and must be completed in the Azure tenant.
+- Runtime evidence gates for the six flagship projects, including reproducible labs, security verification, measured reliability tests and screenshots/logs generated from actual runs.
+- External open-source collaboration goals and repository hygiene improvements.
+- A score gate: a 9.5/10 target is not justified until security, runtime and collaboration evidence is independently verified.
+
+The profile repository does not provide an API operation for pinning profile repositories in this workflow; the six recommended repositories still need to be pinned manually through GitHub profile settings. No Azure credential was revoked, no Git history was rewritten, no cloud resources were deployed and no new runtime test results are claimed in this update.
