@@ -238,3 +238,5 @@ The remediation is not considered complete until a fresh image scan confirms the
 **Closeout boundary:** 24 dependency PRs merged; one SRE Terraform provider PR remains open for targeted verification. No Azure infrastructure apply or live cluster test was performed.
 
 **Final correction:** The stale SRE AzureRM Dependabot PR #2 was closed as superseded. A clean replacement [PR #14](https://github.com/haqueamir70-coder/sre-observability-platform/pull/14) was opened from current main with the new dedicated Terraform validation path. Its checks are running; do not merge until all required jobs pass.
+
+**Final result:** Replacement SRE AzureRM PR #14 passed all six checks (including the dedicated Azure Cost Guardrails Terraform fmt/init/validate job, Checkov and OPA) and was merged as `a94ef6905444ebff44b3d26df4dfe12532bf56de`. The five reviewed flagship repositories now have no open Dependabot PRs; Kubernetes AI Inference #1 is a separate issue-template PR, not a dependency update. The 24 Dependabot merges plus the SRE security remediation and AzureRM replacement PRs are complete for this review window.
