@@ -236,3 +236,5 @@ The remediation is not considered complete until a fresh image scan confirms the
 - [ ] Live Kubernetes/AKS execution, runtime screenshots and external open-source contribution remain outside this repository-only session.
 
 **Closeout boundary:** 24 dependency PRs merged; one SRE Terraform provider PR remains open for targeted verification. No Azure infrastructure apply or live cluster test was performed.
+
+**Final correction:** The stale SRE AzureRM Dependabot PR #2 was closed as superseded. A clean replacement [PR #14](https://github.com/haqueamir70-coder/sre-observability-platform/pull/14) was opened from current main with the new dedicated Terraform validation path. Its checks are running; do not merge until all required jobs pass.
