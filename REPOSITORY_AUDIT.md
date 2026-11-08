@@ -207,3 +207,5 @@ One dependency PR remains open for targeted verification: SRE Observability #2 (
 The SRE remediation scan passed with blocking CRITICAL/HIGH severity checks and uploaded a CycloneDX SBOM. This confirms the specific scan pipeline passed at that commit; it is not a blanket assertion that all projects or all runtime environments are vulnerability-free.
 
 Still unresolved outside repository-only access: historical Azure service-principal credential revocation and Entra/Azure log review, Blob data-plane RBAC for OIDC remote state, live AKS/Kubernetes tests, and an accepted external open-source contribution. No cloud infrastructure apply or production deployment was performed in this pass.
+
+**Final correction:** The stale SRE AzureRM Dependabot PR #2 was closed without merging and replaced by [PR #14](https://github.com/haqueamir70-coder/sre-observability-platform/pull/14), created from current main. The new PR triggers Azure Cost Guardrails fmt/init/validate plus the existing validation, Checkov and OPA checks. Checks were still running at the time of this note; no merge is claimed.
