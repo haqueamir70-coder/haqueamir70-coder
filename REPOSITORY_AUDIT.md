@@ -171,3 +171,8 @@ Weekly Dependabot update configuration is now present across the six selected fl
 ## Dependabot CI review — 8 November 2026
 
 Latest reviewed checks: Enterprise Internal Developer Platform #1 passed 2/2 checks; Azure AKS Zero Trust #1 and #2 passed 2/2 each; Kubernetes AI Inference #11 passed 4/4. SRE Observability Dependabot PR #12 failed its build-scan because the workflow references the unresolvable `aquasecurity/trivy-action@0.28.0`; validation passed. Industrial IoT PR #3 passed synthetic telemetry tests but its Gitleaks job failed because the checkout was shallow and the PR commit range was unavailable. A focused fix was opened as [Industrial IoT PR #4](https://github.com/haqueamir70-coder/azure-industrial-iot-reliability-platform/pull/4), setting `fetch-depth: 0` on both checkout steps. SRE already has Dependabot PR #4 to update Trivy to 0.36.0; that PR still needs CI verification. No dependency PR was merged and no clean security-scan claim is made.
+
+
+## SRE vulnerability remediation — 8 November 2026
+
+Trivy reported HIGH CVE-2026-76844 in Debian `zlib1g` and HIGH CVE-2025-62727 in Starlette 0.41.3 for the Secure GitOps image. Opened [SRE remediation PR #13](https://github.com/haqueamir70-coder/sre-observability-platform/pull/13) to upgrade FastAPI to 0.162.0, pin Starlette 0.49.1 (the fixed version indicated by the scan), apply Debian package security upgrades during image build, and update the Trivy action to v0.36.0. CI is pending; remediation is not verified until a fresh image scan passes. Industrial IoT PR #4 has passed both required checks. No PR was merged during this remediation pass.
