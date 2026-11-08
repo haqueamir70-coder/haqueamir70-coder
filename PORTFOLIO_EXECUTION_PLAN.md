@@ -183,3 +183,15 @@ Dependabot began opening update PRs after the new schedules were committed. The 
 - [Azure AKS Zero-Trust #2](https://github.com/haqueamir70-coder/azure-aks-zero-trust-platform/pull/2) — actions/checkout 4 → 7.
 
 At review time, these PRs were open and their commit statuses were pending. They were deliberately not merged. Check compatibility, inspect release notes and wait for CI before merging. Additional update PRs may appear as scheduled checks complete.
+
+
+## CI failure triage — 8 November 2026
+
+- [x] Inspected checks for the latest Dependabot PRs in the internal developer platform, Azure AKS zero-trust, SRE observability, industrial IoT reliability and Kubernetes AI inference repositories.
+- [x] Confirmed passing checks for Enterprise Internal Developer Platform #1 (2/2), Azure AKS Zero Trust #1 and #2 (2/2 each), and Kubernetes AI Inference #11 (4/4).
+- [x] Identified SRE Observability build-scan failure: the workflow still references `aquasecurity/trivy-action@0.28.0`, which GitHub cannot resolve. Existing Dependabot PR #4 proposes 0.36.0; review its checks before merging.
+- [x] Identified Industrial IoT Gitleaks failure: the action was given a shallow checkout and could not resolve the PR commit range. Opened [fix PR #4](https://github.com/haqueamir70-coder/azure-industrial-iot-reliability-platform/pull/4) to set `fetch-depth: 0` for both checkout steps.
+- [ ] Re-check CI on Industrial IoT fix PR #4 and merge only after all required checks pass.
+- [ ] Verify SRE Trivy update PR #4 checks and merge only after build/scan succeeds.
+
+The CI failures are workflow execution/configuration failures, not evidence of a clean security scan. No Dependabot PR was merged in this review.
