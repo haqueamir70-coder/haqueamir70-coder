@@ -157,3 +157,18 @@ A target of 9.5/10 should be considered only after the critical security gate an
 - [ ] Verify GitHub secret scanning and push protection; pin third-party GitHub Actions to reviewed immutable commit SHAs.
 
 **Current state: GitHub-to-Entra OIDC authentication and a backend-free authenticated Terraform plan are verified. The existing resource group is now read as a data source and root CI validation passed. The Storage Account/container exist and the remote-state runbook is published, but the OIDC app lacks Blob data-plane access, so remote backend initialization is blocked. No infrastructure apply or deployment was performed. Historical credential revocation and log review remain open.**
+
+
+## Dependency update automation — 8 November 2026
+
+- [x] Confirmed the supply-chain security flagship already has a Dependabot configuration.
+- [x] Added weekly GitHub Actions, Python/pip and Terraform dependency update schedules to the five remaining selected flagship repositories where those ecosystems exist:
+  - `enterprise-internal-developer-platform`
+  - `azure-aks-zero-trust-platform`
+  - `sre-observability-platform`
+  - `azure-industrial-iot-reliability-platform`
+  - `kubernetes-ai-inference-platform`
+- [ ] Review the first Dependabot pull requests and run the relevant CI/security tests before merging.
+- [ ] Resolve vulnerable or unsupported dependencies based on actual alerts and compatibility tests; do not auto-merge updates without review.
+
+These configurations enable scheduled update PRs. They do not prove that dependencies are current or vulnerability-free until Dependabot produces and the maintainer reviews the updates.
