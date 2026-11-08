@@ -160,3 +160,9 @@ The profile repository does not provide an API operation for pinning profile rep
 The owner created resource group `rg-github-cicd-demo`, storage account `storagegithub43` and private container `github-container`. The root Terraform configuration was changed to use an `azurerm_resource_group` data source so a plan does not attempt to recreate the existing group. CI runs #34, #35 and #36 completed successfully. A remote-state bootstrap runbook was added at [docs/REMOTE-STATE-BOOTSTRAP.md](https://github.com/haqueamir70-coder/azure-terraform-cicd/blob/main/docs/REMOTE-STATE-BOOTSTRAP.md).
 
 Remote backend initialization remains blocked because the OIDC app does not have `Storage Blob Data Contributor`. The signed-in user has Contributor but cannot assign RBAC roles. No storage key/SAS workaround was added, no Terraform apply was run, and no remote state migration was attempted.
+
+
+
+## Flagship dependency automation — 8 November 2026
+
+Weekly Dependabot update configuration is now present across the six selected flagship repositories. The supply-chain security repository already had a Dependabot configuration; new configurations were added to the internal developer platform, Azure AKS zero-trust, SRE observability, industrial IoT reliability and Kubernetes AI inference repositories. The schedules cover GitHub Actions and the Python/Terraform ecosystems present in each repository. The first update PRs still require compatibility and security review; no claim is made that all dependencies are already current or vulnerability-free.
