@@ -136,3 +136,18 @@ Redact tokens, account IDs, private IPs, customer identifiers, internal hostname
 | Maintenance | Clear scope, current dependencies and honest implementation status |
 
 A target of 9.5/10 should be considered only after the critical security gate and the runtime/collaboration evidence gates are independently verified. A README refresh by itself cannot justify that score.
+
+
+## 6. OIDC migration progress — 8 November 2026
+
+- [x] Created GitHub Actions environment `azure-plan` in `haqueamir70-coder/azure-terraform-cicd` (confirmed by user screenshot).
+- [x] Created an Entra federated credential named `github-azure-plan` on app registration `twischat_new` (confirmed by user screenshot).
+- [x] Documented the immutable GitHub organization/repository identity and environment-secret requirements in the Terraform CI/CD repository README.
+- [ ] Add `AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` as GitHub environment secrets for `azure-plan`.
+- [ ] Verify the federated credential subject matches the generated portal value for this exact repository and environment.
+- [ ] Run the manually dispatched authenticated Terraform plan and retain the workflow run as evidence.
+- [ ] Confirm the new app registration has the minimum required Azure RBAC role assignments.
+- [ ] Revoke the historical exposed service-principal credential only after identifying the exact old app/service principal and checking dependencies.
+- [ ] Review Entra service-principal sign-in logs and Azure Activity Logs for the relevant exposure period.
+
+**Current state: Azure-side federation and GitHub environment creation are confirmed. GitHub environment secrets, authenticated workflow execution, RBAC verification and historical credential revocation remain unverified.**
