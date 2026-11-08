@@ -148,10 +148,12 @@ A target of 9.5/10 should be considered only after the critical security gate an
 - [x] Verified Azure CLI OIDC login and subscription selection in the job log.
 - [x] Verified backend-free Terraform plan completed with 1 add, 0 change, 0 destroy.
 - [x] Published run evidence and limitations in `azure-terraform-cicd/docs/OIDC-VERIFICATION.md`.
-- [ ] Configure and test a remote Azure Storage backend; the verified run used `terraform init -backend=false` and is not a remote-state drift assessment.
+- [x] Create the Azure Storage Account and private blob container manually; add a repository-specific remote-state bootstrap runbook. Remote backend access remains blocked pending the app's Blob data-plane role.
+- [x] Change the root Terraform example to read the manually created `rg-github-cicd-demo` as a data source instead of attempting to create a duplicate; CI validation run #34 passed.
+- [ ] Grant and test `Storage Blob Data Contributor` for the OIDC app, then configure and test the remote backend; no remote-state plan has run.
 - [ ] Confirm the new app registration has only the minimum required Azure RBAC assignments, including any required state-storage data-plane access.
 - [ ] Identify and revoke the historical exposed service-principal credential only after confirming the exact old app/service principal and checking dependencies.
 - [ ] Review Entra service-principal sign-in logs and Azure Activity Logs for the relevant exposure period.
 - [ ] Verify GitHub secret scanning and push protection; pin third-party GitHub Actions to reviewed immutable commit SHAs.
 
-**Current state: GitHub-to-Entra OIDC authentication and a backend-free authenticated Terraform plan are verified. No infrastructure apply or deployment was performed. Remote state, least-privilege RBAC review, historical credential revocation and log review remain open.**
+**Current state: GitHub-to-Entra OIDC authentication and a backend-free authenticated Terraform plan are verified. The existing resource group is now read as a data source and root CI validation passed. The Storage Account/container exist and the remote-state runbook is published, but the OIDC app lacks Blob data-plane access, so remote backend initialization is blocked. No infrastructure apply or deployment was performed. Historical credential revocation and log review remain open.**
