@@ -205,3 +205,18 @@ The CI failures are workflow execution/configuration failures, not evidence of a
 - [x] Industrial IoT Gitleaks fix PR #4 passed both required checks (synthetic telemetry tests and documentation/repository checks); merge review remains pending.
 
 The remediation is not considered complete until a fresh image scan confirms the findings are cleared. The Trivy action update itself does not remediate vulnerabilities.
+
+
+## Dependabot execution update — 8 November 2026 (later review)
+
+- [x] Merged passing dependency PRs after checking the relevant CI results: 18 Dependabot PRs across the flagship repositories to date.
+- [x] SRE Observability #13 merged after FastAPI/Starlette remediation, Debian package upgrade, Trivy v0.36.0 update, successful blocking Trivy filesystem/image scans and SBOM upload.
+- [x] SRE Observability #8 and #9 and #10 merged after their latest validation/security checks passed.
+- [x] Kubernetes AI Inference #2, #4, #5, #6, #8, #9, #10 and #11 merged after their respective validation/API/Trivy checks passed.
+- [x] Industrial IoT #1, #2 and #3 merged after required checks passed; #2 was updated to fetch full Git history so Gitleaks could inspect the PR commit range.
+- [x] Enterprise Internal Developer Platform #1 and Azure AKS Zero Trust #1 and #2 merged after checks passed.
+- [ ] Resolve remaining stale/conflicting PRs by regenerating updates against current main rather than forcing merges: SRE #7, #3, #5, #6 and #2; Kubernetes AI #7 and #3. Recheck current PR state before action.
+- [ ] Confirm all latest default-branch workflow runs after these merges are complete.
+- [ ] Azure tenant-side blockers remain: Blob data-plane RBAC for OIDC state access, historical service-principal credential revocation and audit-log review.
+
+**Important:** PRs were merged only when the relevant checks passed and GitHub accepted the merge. A successful CI run is repository validation, not proof of cloud deployment or production runtime. The 2-hour target is a work window, not a guarantee that tenant-owner actions or external review can be completed without access.
