@@ -172,3 +172,14 @@ A target of 9.5/10 should be considered only after the critical security gate an
 - [ ] Resolve vulnerable or unsupported dependencies based on actual alerts and compatibility tests; do not auto-merge updates without review.
 
 These configurations enable scheduled update PRs. They do not prove that dependencies are current or vulnerability-free until Dependabot produces and the maintainer reviews the updates.
+
+
+## First Dependabot PR review queue — 8 November 2026
+
+Dependabot began opening update PRs after the new schedules were committed. The following PRs were visible during this review:
+
+- [Enterprise Internal Developer Platform #1](https://github.com/haqueamir70-coder/enterprise-internal-developer-platform/pull/1) — actions/checkout 4 → 7.
+- [Azure AKS Zero-Trust #1](https://github.com/haqueamir70-coder/azure-aks-zero-trust-platform/pull/1) — hashicorp/setup-terraform 3 → 4.
+- [Azure AKS Zero-Trust #2](https://github.com/haqueamir70-coder/azure-aks-zero-trust-platform/pull/2) — actions/checkout 4 → 7.
+
+At review time, these PRs were open and their commit statuses were pending. They were deliberately not merged. Check compatibility, inspect release notes and wait for CI before merging. Additional update PRs may appear as scheduled checks complete.
