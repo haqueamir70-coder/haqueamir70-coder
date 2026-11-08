@@ -149,7 +149,7 @@ A target of 9.5/10 should be considered only after the critical security gate an
 - [x] Verified backend-free Terraform plan completed with 1 add, 0 change, 0 destroy.
 - [x] Published run evidence and limitations in `azure-terraform-cicd/docs/OIDC-VERIFICATION.md`.
 - [x] Create the Azure Storage Account and private blob container manually; add a repository-specific remote-state bootstrap runbook. Remote backend access remains blocked pending the app's Blob data-plane role.
-- [x] Change the root Terraform example to read the manually created `rg-github-cicd-demo` as a data source instead of attempting to create a duplicate; CI validation run #34 passed.
+- [x] Change the root Terraform example to read the manually created `rg-github-cicd-demo` as a data source instead of attempting to create a duplicate; CI validation runs #34, #35 and #36 passed.
 - [ ] Grant and test `Storage Blob Data Contributor` for the OIDC app, then configure and test the remote backend; no remote-state plan has run.
 - [ ] Confirm the new app registration has only the minimum required Azure RBAC assignments, including any required state-storage data-plane access.
 - [ ] Identify and revoke the historical exposed service-principal credential only after confirming the exact old app/service principal and checking dependencies.
