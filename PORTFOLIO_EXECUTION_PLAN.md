@@ -195,3 +195,13 @@ At review time, these PRs were open and their commit statuses were pending. They
 - [ ] Verify SRE Trivy update PR #4 checks and merge only after build/scan succeeds.
 
 The CI failures are workflow execution/configuration failures, not evidence of a clean security scan. No Dependabot PR was merged in this review.
+
+
+## Security scan remediation follow-up — 8 November 2026
+
+- [x] Inspected the Trivy findings in SRE Observability: HIGH CVE-2026-76844 in Debian `zlib1g` and HIGH CVE-2025-62727 in Starlette 0.41.3.
+- [x] Opened [SRE remediation PR #13](https://github.com/haqueamir70-coder/sre-observability-platform/pull/13): upgrade FastAPI to 0.162.0, pin Starlette to the scanner-reported fixed version 0.49.1, upgrade Debian packages during image build, and update the Trivy action to resolvable v0.36.0.
+- [ ] Wait for PR #13 CI and inspect the new Trivy report. Do not merge unless the scan and application validation pass.
+- [x] Industrial IoT Gitleaks fix PR #4 passed both required checks (synthetic telemetry tests and documentation/repository checks); merge review remains pending.
+
+The remediation is not considered complete until a fresh image scan confirms the findings are cleared. The Trivy action update itself does not remediate vulnerabilities.
