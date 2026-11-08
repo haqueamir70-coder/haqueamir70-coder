@@ -166,3 +166,8 @@ Remote backend initialization remains blocked because the OIDC app does not have
 ## Flagship dependency automation — 8 November 2026
 
 Weekly Dependabot update configuration is now present across the six selected flagship repositories. The supply-chain security repository already had a Dependabot configuration; new configurations were added to the internal developer platform, Azure AKS zero-trust, SRE observability, industrial IoT reliability and Kubernetes AI inference repositories. The schedules cover GitHub Actions and the Python/Terraform ecosystems present in each repository. The first update PRs still require compatibility and security review; no claim is made that all dependencies are already current or vulnerability-free.
+
+
+## Dependabot CI review — 8 November 2026
+
+Latest reviewed checks: Enterprise Internal Developer Platform #1 passed 2/2 checks; Azure AKS Zero Trust #1 and #2 passed 2/2 each; Kubernetes AI Inference #11 passed 4/4. SRE Observability Dependabot PR #12 failed its build-scan because the workflow references the unresolvable `aquasecurity/trivy-action@0.28.0`; validation passed. Industrial IoT PR #3 passed synthetic telemetry tests but its Gitleaks job failed because the checkout was shallow and the PR commit range was unavailable. A focused fix was opened as [Industrial IoT PR #4](https://github.com/haqueamir70-coder/azure-industrial-iot-reliability-platform/pull/4), setting `fetch-depth: 0` on both checkout steps. SRE already has Dependabot PR #4 to update Trivy to 0.36.0; that PR still needs CI verification. No dependency PR was merged and no clean security-scan claim is made.
