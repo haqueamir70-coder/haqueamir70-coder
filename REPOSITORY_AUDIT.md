@@ -176,3 +176,16 @@ Latest reviewed checks: Enterprise Internal Developer Platform #1 passed 2/2 che
 ## SRE vulnerability remediation — 8 November 2026
 
 Trivy reported HIGH CVE-2026-76844 in Debian `zlib1g` and HIGH CVE-2025-62727 in Starlette 0.41.3 for the Secure GitOps image. Opened [SRE remediation PR #13](https://github.com/haqueamir70-coder/sre-observability-platform/pull/13) to upgrade FastAPI to 0.162.0, pin Starlette 0.49.1 (the fixed version indicated by the scan), apply Debian package security upgrades during image build, and update the Trivy action to v0.36.0. CI is pending; remediation is not verified until a fresh image scan passes. Industrial IoT PR #4 has passed both required checks. No PR was merged during this remediation pass.
+
+
+## Dependabot and security follow-up — 8 November 2026 (later review)
+
+The latest execution pass merged 18 Dependabot PRs across the flagship repositories after inspecting required checks. Highlights:
+- SRE Observability: remediation PR #13 merged with successful validation, blocking Trivy filesystem/image scans and CycloneDX SBOM upload. Also merged Dependabot PRs #8, #9, #10 and #11 after checks passed.
+- Industrial IoT: Dependabot PRs #1, #2 and #3 merged after tests passed. PR #2's Gitleaks v3 update was repaired by using full Git history (fetch-depth: 0) for both checkout steps; the failing run had attempted to scan a PR commit range whose parent commit was absent from a shallow checkout.
+- Enterprise Internal Developer Platform #1 and Azure AKS Zero Trust #1/#2 merged after their checks passed.
+- Kubernetes AI Inference #2, #4, #5, #6, #8, #9, #10 and #11 merged after their respective API, manifest, Terraform and Trivy checks passed.
+
+Still open for conflict/rebase or further validation: SRE Observability #2, #3, #5, #6 and #7; Kubernetes AI Inference #3 and #7. Do not force-merge these stale branches. Regenerate/rebase the dependency updates against current main, rerun checks, and merge only when conflict-free and green.
+
+The SRE security remediation does not establish that every dependency in every repository is current or that every application is vulnerability-free. It establishes that the specific previously reported HIGH findings were addressed and the configured Trivy scan passed on the remediation PR. Historical Azure credential revocation, Entra/Azure log review, Blob data-plane RBAC, live Kubernetes execution and external contribution remain separate gates.
