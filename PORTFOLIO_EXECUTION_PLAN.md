@@ -138,16 +138,20 @@ Redact tokens, account IDs, private IPs, customer identifiers, internal hostname
 A target of 9.5/10 should be considered only after the critical security gate and the runtime/collaboration evidence gates are independently verified. A README refresh by itself cannot justify that score.
 
 
-## 6. OIDC migration progress — 8 November 2026
+## 8. OIDC migration progress — 8 November 2026
 
 - [x] Created GitHub Actions environment `azure-plan` in `haqueamir70-coder/azure-terraform-cicd` (confirmed by user screenshot).
-- [x] Created an Entra federated credential named `github-azure-plan` on app registration `twischat_new` (confirmed by user screenshot).
-- [x] Documented the immutable GitHub organization/repository identity and environment-secret requirements in the Terraform CI/CD repository README.
-- [ ] Add `AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` as GitHub environment secrets for `azure-plan`.
-- [ ] Verify the federated credential subject matches the generated portal value for this exact repository and environment.
-- [ ] Run the manually dispatched authenticated Terraform plan and retain the workflow run as evidence.
-- [ ] Confirm the new app registration has the minimum required Azure RBAC role assignments.
-- [ ] Revoke the historical exposed service-principal credential only after identifying the exact old app/service principal and checking dependencies.
+- [x] Created Entra federated credential `github-azure-plan` on app registration `twischat_new` (confirmed by user screenshot).
+- [x] Added GitHub environment secrets `AZURE_CLIENT_ID`, `AZURE_TENANT_ID` and `AZURE_SUBSCRIPTION_ID` (confirmed by user screenshot).
+- [x] Verified the immutable-ID GitHub OIDC subject against the actual Azure Login job log.
+- [x] Ran authenticated workflow [Azure Terraform CI #31](https://github.com/haqueamir70-coder/azure-terraform-cicd/actions/runs/42474695790); all three jobs succeeded.
+- [x] Verified Azure CLI OIDC login and subscription selection in the job log.
+- [x] Verified backend-free Terraform plan completed with 1 add, 0 change, 0 destroy.
+- [x] Published run evidence and limitations in `azure-terraform-cicd/docs/OIDC-VERIFICATION.md`.
+- [ ] Configure and test a remote Azure Storage backend; the verified run used `terraform init -backend=false` and is not a remote-state drift assessment.
+- [ ] Confirm the new app registration has only the minimum required Azure RBAC assignments, including any required state-storage data-plane access.
+- [ ] Identify and revoke the historical exposed service-principal credential only after confirming the exact old app/service principal and checking dependencies.
 - [ ] Review Entra service-principal sign-in logs and Azure Activity Logs for the relevant exposure period.
+- [ ] Verify GitHub secret scanning and push protection; pin third-party GitHub Actions to reviewed immutable commit SHAs.
 
-**Current state: Azure-side federation and GitHub environment creation are confirmed. GitHub environment secrets, authenticated workflow execution, RBAC verification and historical credential revocation remain unverified.**
+**Current state: GitHub-to-Entra OIDC authentication and a backend-free authenticated Terraform plan are verified. No infrastructure apply or deployment was performed. Remote state, least-privilege RBAC review, historical credential revocation and log review remain open.**
